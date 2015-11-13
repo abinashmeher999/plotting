@@ -15,7 +15,7 @@ for column_name in data.dtype.names[2:]:
     print 'x:', x
     print 'y:', y
     print
-    plt.savefig(column_name, format='png')
+    plt.savefig(column_name+'.png', format='png')
     plt.close()
     # for y in data.dtype.names[2:]:
     #     plt.scatter(data[column_name], data[y])
